@@ -36,7 +36,8 @@ div > img {
   background: linear-gradient(#ffffff00, #000000e5);
   z-index: 2;
   position: absolute;
-  bottom: 7px;
+  bottom: 6px;
+  border-radius: 10px;
 }
 
 div > .text-box-top {
