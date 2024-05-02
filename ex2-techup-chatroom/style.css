@@ -26,6 +26,20 @@
   font-size: small;
 }
 
+.bubble-tail {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0);
+  transform: rotate(40deg);
+  box-shadow: 10px 5px 0 0 rgb(65, 173, 65);
+  /* box-shadow: 10px 5px 0 0 red; */
+  bottom: 110px;
+  right: 10px;
+  z-index: -1;
+}
+
 .chatroom-sender-chat2 {
   background-color: lightgray;
 }
