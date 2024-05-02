@@ -1,5 +1,63 @@
 body {
   font-family: "Kanit";
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Start coding here */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.banner {
+  position: relative;
+  padding: 5px;
+  background-color: white;
+}
+
+img {
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.name-store {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+  z-index: 3;
+}
+
+.location {
+  color: white;
+  text-align: center;
+  width: 102px;
+  height: 40px;
+  background-color: grey;
+  font-size: 25px;
+  position: absolute;
+  left: 530px;
+  bottom: 255px;
+  z-index: 3;
+}
+
+.gradient {
+  position: absolute;
+  width: 98.3%;
+  height: 95%;
+  z-index: 2;
+  bottom: 0px;
+  margin-bottom: 9px;
+  border-radius: 10px;
+  margin-right: 3px;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.921));
+}
